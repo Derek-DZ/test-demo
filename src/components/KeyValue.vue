@@ -76,17 +76,10 @@
       return myDom
     }
     changeKeyValue(e: Event){
-      const item: HTMLDivElement = this.getDom(e)
-      item.parentNode!.parentNode!.removeChild
+      return
     }
     removeKeyValue(e: Event){
-      const item: HTMLDivElement = this.getDom(e)
-      item.parentNode!.parentNode!.removeChild
-      // this.fetchRecords()
-      // const index = 1
-      // this.inputValueArray.splice(index,1)
-      // const cache: string = JSON.stringify(this.inputValueArray)
-      // localStorage.setItem('key-value', cache)
+      return
     }
 
   }
